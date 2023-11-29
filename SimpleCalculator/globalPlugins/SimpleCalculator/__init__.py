@@ -10,18 +10,30 @@ addonHandler.initTranslation()
 
 showDialog = None
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+	def __init__ (self):
+		super().__init__()
+		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
+		self.open= self.toolsMenu.Append(wx.ID_ANY, _("simple calculator"),_("open simple calculator dialog"))
+		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.run, self.open)
+
 	@script(
 description= _("open semple calculator dialog"),
 category= _("SimpleCalculator"),
 gesture="kb:nvda+alt+s")
 	def script_start (self, gesture):
+		self.run(1)
+	def run(self,event):
 		global showDialog
 		if not showDialog:
 			showDialog= mainDialog(gui.mainFrame)
 			showDialog.Raise()
 		else:
 			showDialog.Raise()
-
+	def terminate(self):
+		try:
+			self.toolsMenu.Remove(self.open)
+		except :
+			pass
 class mainDialog(wx.Dialog):
 	def __init__(self, parent):
 		super(mainDialog, self).__init__(parent, title = _("Simple calculator"))
