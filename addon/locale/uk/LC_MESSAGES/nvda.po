@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-11-24 19:46+0200\n"
+"PO-Revision-Date: 2023-11-24 19:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: globalPlugins/SimpleCalculator\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:14
+msgid "open semple calculator dialog"
+msgstr "відкриває діалог простого калькулятора"
+
+#: __init__.py:15
+msgid "SimpleCalculator"
+msgstr "SimpleCalculator"
+
+#: __init__.py:27
+msgid "Simple calculator"
+msgstr "Простий калькулятор"
+
+#: __init__.py:28
+msgid "Arithmetic operation"
+msgstr "Арифметична операція"
+
+#: __init__.py:31
+msgid "result"
+msgstr "результат"
+
+#: __init__.py:34
+msgid "copy"
+msgstr "копіювати"
+
+#: __init__.py:45
+msgid "copied"
+msgstr "скопійовано"
