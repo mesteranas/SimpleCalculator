@@ -13,12 +13,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__ (self):
 		super().__init__()
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
-		self.open= self.toolsMenu.Append(wx.ID_ANY, _("simple calculator"),_("open simple calculator dialog"))
+		self.open= self.toolsMenu.Append(wx.ID_ANY, _("Simple calculator"),_("Open simple calculator dialog"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.run, self.open)
 
 	@script(
-description= _("open semple calculator dialog"),
-category= _("SimpleCalculator"),
+description= _("Open simple calculator dialog"),
+category= _("Simple calculator"),
 gesture="kb:nvda+alt+s")
 	def script_start (self, gesture):
 		self.run(1)
