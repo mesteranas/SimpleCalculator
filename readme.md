@@ -1,4 +1,4 @@
-\# Simple Calculator
+# Simple Calculator
 
 
 
@@ -6,27 +6,27 @@ Simple Calculator is an NVDA add-on that allows you to perform arithmetic calcul
 
 
 
-\*\*Author:\*\* Mister Anas
+**Author:** Mister Anas
 
 
 
-\## Installation
+## Installation
 
 
 
-You can install this add-on from the NVDA Add-on Store or download it from the \[Releases page](https://github.com/mesteranas/SimpleCalculator/releases).
+You can install this add-on from the NVDA Add-on Store or download it from the [Releases page](https://github.com/mesteranas/SimpleCalculator/releases).
 
 
 
-\## Usage
+## Usage
 
 
 
-To open the calculator, press \*\*NVDA+Alt+S\*\* or access it from the \*\*Tools\*\* menu in NVDA.
+To open the calculator, press **NVDA+Alt+S** or access it from the **Tools** menu in NVDA.
 
 
 
-\*\*Note:\*\* This keyboard shortcut can be changed through NVDA's \*\*Input Gestures\*\* dialog.
+**Note:** This keyboard shortcut can be changed through NVDA's **Input Gestures** dialog.
 
 
 
@@ -34,7 +34,7 @@ When the add-on opens, focus is automatically placed in the input field, where y
 
 
 
-\### Input Format
+### Input Format
 
 
 
@@ -42,7 +42,7 @@ Simple Calculator uses standard computer-style mathematical expressions. This me
 
 
 
-\#### Basic Operations
+#### Basic Operations
 
 
 
@@ -54,15 +54,15 @@ Simple Calculator uses standard computer-style mathematical expressions. This me
 
 | Subtraction    | `-`    | `10-4`  |
 
-| Multiplication | `\*`    | `6\*7`   |
+| Multiplication | `*`    | `6*7`   |
 
 | Division       | `/`    | `20/5`  |
 
-| Power          | `\*\*`   | `2\*\*3`  |
+| Power          | `**`   | `2**3`  |
 
 
 
-\#### Examples
+#### Examples
 
 
 
@@ -70,15 +70,15 @@ Correct:
 
 
 
-\* `5+3`
+* `5+3`
 
-\* `10\*5`
+* `10*5`
 
-\* `100/4`
+* `100/4`
 
-\* `(5+3)\*2`
+* `(5+3)*2`
 
-\* `2\*\*3`
+* `2**3`
 
 
 
@@ -86,17 +86,17 @@ Incorrect:
 
 
 
-\* `5×3` (use `\*` instead of `×`)
+* `5×3` (use `*` instead of `×`)
 
-\* `10÷2` (use `/` instead of `÷`)
+* `10÷2` (use `/` instead of `÷`)
 
-\* `2^3` (use `\*\*` instead of `^`)
+* `2^3` (use `**` instead of `^`)
 
-\* `5(3+2)` (write `5\*(3+2)`)
+* `5(3+2)` (write `5*(3+2)`)
 
 
 
-\#### Using Parentheses
+#### Using Parentheses
 
 
 
@@ -108,13 +108,13 @@ Example:
 
 
 
-\* `2+3\*4` = 14
+* `2+3*4` = 14
 
-\* `(2+3)\*4` = 20
+* `(2+3)*4` = 20
 
 
 
-\#### Decimal Numbers
+#### Decimal Numbers
 
 
 
@@ -126,73 +126,73 @@ Examples:
 
 
 
-\* `3.14`
+* `3.14`
 
-\* `12.5\*2`
-
-
-
-\#### Advanced Examples
+* `12.5*2`
 
 
 
-\* Calculate the area of a rectangle:
+#### Advanced Examples
 
 
 
-&#x20; \* `5\*8`
-
-\* Calculate a discount:
+* Calculate the area of a rectangle:
 
 
 
-&#x20; \* `100-(100\*0.2)`
+&#x20; * `5*8`
 
-\* Calculate the average of three numbers:
-
-
-
-&#x20; \* `(10+20+30)/3`
-
-\* Calculate the square of a number:
+* Calculate a discount:
 
 
 
-&#x20; \* `7\*\*2`
+&#x20; * `100-(100*0.2)`
+
+* Calculate the average of three numbers:
 
 
 
-\#### Notes
+&#x20; * `(10+20+30)/3`
+
+* Calculate the square of a number:
 
 
 
-\* Spaces are optional.
-
-\* Expressions must follow standard computer syntax.
-
-\* Invalid expressions will result in an error message.
+&#x20; * `7**2`
 
 
 
-After entering your expression, press \*\*Tab\*\* to move to the result field and the \*\*Copy\*\* button.
+#### Notes
 
 
 
-\## Supported Languages
+* Spaces are optional.
+
+* Expressions must follow standard computer syntax.
+
+* Invalid expressions will result in an error message.
 
 
 
-\* Arabic
-
-\* English
-
-\* German
-
-\* Ukrainian
+After entering your expression, press **Tab** to move to the result field and the **Copy** button.
 
 
 
-\*\*Note:\*\* The developer is only responsible for the Arabic, English, and German translations.
+## Supported Languages
+
+
+
+* Arabic
+
+* English
+
+* German
+
+* Ukrainian
+
+
+
+**Note:** The developer is only responsible for the Arabic, English, and German translations.
 
 
 
@@ -204,13 +204,13 @@ A translation contribution should include:
 
 
 
-\* All add-on interface text
+* All add-on interface text
 
-\* The README file
+* The README file
 
 
 
-\## Contributions
+## Contributions
 
 
 
@@ -218,23 +218,23 @@ Contributions of all kinds are welcome, including:
 
 
 
-\* Bug fixes
+* Bug fixes
 
-\* New features
+* New features
 
-\* Code improvements
+* Code improvements
 
-\* Translation updates
+* Translation updates
 
-\* Suggestions and feedback
-
-
-
-\## License
+* Suggestions and feedback
 
 
 
-This add-on is licensed under the \*\*GNU General Public License v3.0 (GPL-3.0)\*\*.
+## License
+
+
+
+This add-on is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
 
 
